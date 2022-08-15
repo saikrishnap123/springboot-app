@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-springboot-app
-        image: containerregistry154321.azurecr.io/saikrishnap123/springboot-app:#{Build.BuildId}#
+        image: spring12345.azurecr.io/saikrishnap123/springboot-app:#{Build.BuildId}#
         imagePullPolicy: Always
         ports:
         - containerPort: 8085
