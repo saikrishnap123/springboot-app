@@ -2,10 +2,15 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
+application:
+  author: roushan
+  name: sampleapi #Aadhar Vault Manager
+  type: api
+
 replicaCount: 1
 
 image:
-  repository: spring12345.azurecr.io
+  repository: spring12345.azurecr.io/springboot-app/sampleapi:v1
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: "v1"
